@@ -10,4 +10,8 @@ public class DemoRestController {
     public String getMsg(){
         return "Good morning";
     }
+    @GetMapping("/contact")
+    public String contact(){
+        return "9013821874";
+    }
 }
